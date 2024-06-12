@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishcodecraft</title><link rel="icon" href="img/logo.png">
+</head>
+
+<body>
+    <div class="full">
+        <div class="logo">
+            <div class="img"></div>
+        </div>
+        <h1 class="name">KrishCodeCraft</h1>
+    </div>
+
+    <style>
+
+
+
+
+
+
+.logo{
+    height: 310px;
+    width: 310px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 500px;
+    border-radius: 80px;
+    margin-top: 100px;
+    transition: 1s;
+    position: fixed;
+
+}
+
+
+
+.logo:hover{
+    height: 310px;
+    width: 310px;
+    margin-left: 500px;
+    border-radius: 80px;
+    transition: 1s;
+    margin-top: 100px;
+    position: fixed;
+    box-shadow: 4px 1px 7px 14px rgb(148, 159, 161);
+
+}
+
+
+
+
+
+
+        .name {
+            color: rgb(161, 172, 192);
+            text-align: center;
+            margin-top: 430px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .full {
+            background-color: rgb(50, 58, 70);
+            height: 100vh;
+            width: 100vw;
+            position: fixed;
+
+        }
+
+      
+        .img {
+            background: url(img/logo.png);
+            height: 290px;
+            width: 290px;
+            background-size: cover;
+            margin-top: 11px;
+            margin-left: 10px;
+            animation-name: logo;
+            animation-duration: 5s;
+            animation-fill-mode: forwards;
+            animation-iteration-count: infinite;
+            animation-delay: 0.1s;
+            animation-timing-function: linear;
+       
+        }
+
+        @keyframes logo {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</body>
+
+</html>
